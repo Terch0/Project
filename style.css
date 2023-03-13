@@ -25,12 +25,10 @@ header>div{
 }
 .text_logo{
     width: 173.16px;
-    height: 10.46px;
 }
 .img_logo{
     padding-bottom: 10px;
     width: 25px;
-    height: 24px;
 }
 .nav{
     display: flex;
