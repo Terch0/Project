@@ -1,9 +1,14 @@
 @font-face {
     font-family: Helvetica_Neue;
+    src: url(fonts/HelveticaNeueCyr-Light.ttf);
+}
+@font-face {
+    font-family: Helvetica_Neue_Medium;
     src: url(fonts/HelveticaNeueCyr-Medium.ttf);
 }
 p,h1,h2,a{
     font-family: "Helvetica_Neue";
+    margin: 0;
 }
 html{
     width: 100%;
@@ -12,6 +17,8 @@ body{
     width: 100%;
     padding: 0%;
     margin: 0%;
+    background: no-repeat url("images/placeholder.jpg") #1A1A1A;
+    background-size: 100%;
     
 }
 header{
@@ -21,7 +28,6 @@ header{
     display: flex;
     flex-direction: column;
     justify-content: center;
-    position: absolute;
     width: 100%;
 }
 header>div{
@@ -69,12 +75,96 @@ header>div{
     display: flex;
     flex-direction: column;
     justify-content: center;
-    background: no-repeat url("images/placeholder.jpg") #1A1A1A;
-    background-size: 100%;
+    
     width: 100%;
-    height: 1030px;
+    height: 550px;
 }
 .sec1>div{
     display: flex;
+    justify-content: center;
+    width: 100%;
+}
+h1,h1>strong{
+    font-size: 72px;
+    line-height: 84px;
+    text-align: center;
+    letter-spacing: 0.1em;
+    text-transform: capitalize;
+    color: #FFFFFF;
+    font-weight: 100;
+    margin: 0;
+
+}
+h1>strong{
+    font-weight: 900;
+    font-family: Helvetica_Neue_Medium;
+}
+.descript{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+    letter-spacing: -0.2px;
+    color: rgba(255, 255, 255, 0.7);
+}
+.green_button{
+    font-family: Helvetica_Neue_Medium;
+    background-color: #34C759;
+    border-radius: 43px;
+    width: 220px;
+    height: 72px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+    letter-spacing: 0.2em;
+}
+.sec1>.sec1_info{
+    display: flex;
     justify-content: space-between;
+    width: 80%;
+    margin: 0 auto;
+}
+.info_up{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+    text-align: center;
+    color: #FFFFFF;
+    margin: 0 auto;
+    margin-top: 12px;
+}
+.info_down{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 30px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    mix-blend-mode: normal;
+    opacity: 0.5;
+    color: #FFFFFF;
+    margin: 0 auto;
+}
+.sec1_info>div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 216px;
+}
+.sec1_info img{
+    width: 26px;
+    margin: 0 auto;
+
+}
+.sec1 button{
+    margin-top: 40px;
+    margin-bottom: 70px;
+}
+.sec1{
+    margin-top: 80px;
 }
